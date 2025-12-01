@@ -1,39 +1,37 @@
-# ===============================================
-# APEX IGNORE FILE: JavaScript/Vite Browser Extension (2026 Standard)
-# Managed by Apex Technical Authority
-# ===============================================
+# Node.js modules
+node_modules/
 
-# --- Build Artifacts ---
-/dist
-/build
+# Build artifacts
+dist/
+build/
+.wxt/
 
-# --- Node Package Manager ---
-node_modules
+# Log files
+*.log
+npm-debug.log*
 
-# --- Vite Specific ---
-.vite-cache
-/coverage
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# --- TypeScript ---
-*.tsbuildinfo
-
-# --- Editor & OS ---
+# Editor/IDE specific files
 .vscode/
 .idea/
-*.log
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
 .DS_Store
-Thumbs.db
+thumbs.db
 
-# --- Browser Extension Specific ---
-# Directories created during testing or dev, but not intended for deployment
-/temp_extension
+# NPM cache
+.npm/
 
-# --- Linters & Formatters ---
-.biome.jsonc.lock
+# Test results
+coverage/
+.vitest/
 
-# --- Testing & E2E ---
-playwright-report/
-*.log
-
-# --- Source Maps (unless explicitly needed for debugging deployment) ---
-*.map
+# Temporary files
+*.tmp
+*~
