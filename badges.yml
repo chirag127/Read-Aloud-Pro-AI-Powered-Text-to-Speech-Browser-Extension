@@ -1,0 +1,26 @@
+build_status:
+  provider: github-actions
+  workflow_name: CI
+  branch: main
+  image_url: https://github.com/chirag127/SpeechFlow-AI-Powered-Text-to-Speech-Browser-Extension/workflows/CI/badge.svg
+coding_style:
+  provider: github-actions
+  workflow_name: Linting
+  branch: main
+  image_url: https://github.com/chirag127/SpeechFlow-AI-Powered-Text-to-Speech-Browser-Extension/workflows/Linting/badge.svg
+test_coverage:
+  provider: codecov
+  branch: main
+  image_url: https://codecov.io/gh/chirag127/SpeechFlow-AI-Powered-Text-to-Speech-Browser-Extension/branch.svg?token=CODECOV_TOKEN
+license:
+  text: CC BY-NC 4.0
+  image_url: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+tech_stack:
+  text: TypeScript, Vite, WebExtension
+  image_url: https://img.shields.io/badge/TechStack-TypeScript%2CVite%2CWebExtension-blue.svg
+javascript_version:
+  text: ES2023
+  image_url: https://img.shields.io/badge/JavaScript%20Version-ES2023-yellow.svg
+vscode_settings:
+  text: VSCode Configured
+  image_url: https://img.shields.io/badge/VSCode-Configured-007ACC.svg
