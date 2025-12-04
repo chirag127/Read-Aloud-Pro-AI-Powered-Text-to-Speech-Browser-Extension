@@ -1,42 +1,49 @@
 # Pull Request Template
 
-## 🚀 Feature / Fix
+**Important:** Please ensure your changes adhere to the Apex Technical Authority standards and the project's architecture. Refer to the `AGENTS.md` for the core directives and the `README.md` for the project overview.
 
-(Please describe the changes made in this pull request. Be specific and concise.)
+---
+**Project:** SpeechFlow-AI-Powered-Text-to-Speech-Browser-Extension
+**Repository:** `https://github.com/chirag127/SpeechFlow-AI-Powered-Text-to-Speech-Browser-Extension`
+---
 
---- 
+## 🚀 Pull Request Checklist
 
-## 📝 Checklist
+Before submitting, please verify the following:
 
-Before submitting your pull request, please ensure:
-
-*   [ ] My code follows the project's style guidelines.
+*   [ ] My code follows the style guidelines of this project (Biome/Ruff, TypeScript/JavaScript best practices).
 *   [ ] I have performed a self-review of my own code.
 *   [ ] I have commented my code, particularly in hard-to-understand areas.
 *   [ ] I have made corresponding changes to the documentation (if applicable).
-*   [ ] My changes generate no new warnings or errors.
+*   [ ] My changes generate no new warnings or errors (linting, compilation, runtime).
 *   [ ] I have added tests that prove my fix is effective or that my feature works.
 *   [ ] New and existing unit tests pass locally with my changes.
-*   [ ] Any dependent changes have been merged and published.
+*   [ ] I have updated the `AGENTS.md` file if my changes affect the core AI/DevOps directives or toolchain.
+*   [ ] I have ensured all dynamic URLs and badges reference the correct repository (`https://github.com/chirag127/SpeechFlow-AI-Powered-Text-to-Speech-Browser-Extension`).
 
---- 
+## 💡 Description
 
-## 💡 Technical Alignment & Validation
+Provide a clear and concise summary of your changes. What problem does this PR solve? What new feature does it introduce?
 
-*   **Architectural Integrity:** Does this PR align with the established architectural patterns (e.g., FSD for extensions, Modular Monolith for Python) and the principles outlined in `AGENTS.md`?
-*   **Apex Toolchain Adherence:** Have the latest versions of the Apex toolchain (Vite, TypeScript, Biome, Vitest, Playwright for extensions; uv, Ruff, Pytest for Python) been considered and utilized appropriately?
-*   **Security & Compliance:** Does this PR introduce any security vulnerabilities or violate any compliance standards (e.g., CC BY-NC license)?
-*   **Testing Strategy:** Have appropriate tests (unit, integration, E2E where applicable) been included or updated to cover the changes? Are test commands defined in `AGENTS.md` executable and passing?
-*   **Code Quality:** Has the code been linted and formatted using the prescribed tools (Biome/Ruff)?
+* **Type:** (e.g., Bug Fix, Feature, Refactor, Chore, Documentation)
+* **Related Issue:** (Link to any relevant GitHub Issues, e.g., `#123`)
 
---- 
+## ✨ Changes
 
-## 🔗 Related Issues
+*   [Briefly list the key changes made in this pull request. Use bullet points.]
 
-(Link to any relevant GitHub issues this PR addresses. e.g., `Closes #123`)
+## 📈 Testing Performed
 
---- 
+Describe the tests you have run to verify your changes. Be specific about the test suite, manual checks, or environments used.
 
-## 📜 License & Contribution
+*   [e.g., Vitest unit tests executed.]
+*   [e.g., Playwright E2E tests passed.]
+*   [e.g., Manual testing in Chrome/Firefox/Edge browser.]
 
-By submitting this pull request, I agree to the terms of the **CC BY-NC 4.0 License** and the contribution guidelines in **`.github/CONTRIBUTING.md`**.
+## 🛠️ Technical Details (Optional)
+
+Add any other context or technical information relevant to your pull request. This could include architectural considerations, potential impacts, or dependencies.
+
+## 🚀 Next Steps (Optional)
+
+Outline any follow-up actions or tasks that need to be completed after this PR is merged.
